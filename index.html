@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<style>
+    .textarea {
+        height: 100%;
+        width: 100%;
+    }
+</style>
+
+<body>
+    <form>
+        <div class="container p-10">
+            <div>
+                <label for="fname">
+                    <b>Name: </b> </label><br>
+                <input type="text" placeholder="Firstname" required>
+                <input type="text" placeholder="Lastname" required>
+            </div>
+            <div>
+                <label for="Email">
+                    <b> Email : </b> </label><br>
+                <input type="name@gmail.com" placeholder="Email" required>
+            </div>
+            <div>
+                <label for="your experience">
+                    <b> Your Experience : </b> </label>
+                <div>
+                    <input type="radio" value="1"><text>star 5</text>
+                    <input type="radio" value="2"><text>star 4</text>
+                    <input type="radio" value="3"><text>star 3</text>
+                    <input type="radio" value="4"><text>star 2</text>
+                    <input type="radio" value="5"><text>star 1</text>
+
+                </div>
+                <p>
+                    Overrall ,How would you rate your experience with us?
+                </p>
+            </div>
+
+            <label for="satisfaction">
+                <b>How satisfied are you with </b>
+            </label>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">very Unsatisfied</th>
+                        <th scope="col">Unsatisfied</th>
+                        <th scope="col">Netural</th>
+                        <th scope="col">Satisfied</th>
+                        <th scope="col">Very Satisfied</th>
+                    </tr>
+                </thead>
+                <tbody class="p-10">
+                    <tr>
+                        <th scope="row">Purchase</th>
+                        <td> <input type="radio" name="option" value="very Unsatisfied"> </td>
+                        <td> <input type="radio" name="option" value="Unsatisfied"> </td>
+                        <td> <input type="radio" name="option" value="Netural"> </td>
+                        <td> <input type="radio" name="option" value="Satisfied"> </td>
+                        <td> <input type="radio" name="option" value="Very satisfied"> </td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">Service</th>
+                        <td> <input type="radio" name="clue" value="very Unsatisfied"> </td>
+                        <td> <input type="radio" name="clue" value="Unsatisfied"> </td>
+                        <td> <input type="radio" name="clue" value="Netural"> </td>
+                        <td> <input type="radio" name="clue" value="Satisfied"> </td>
+                        <td> <input type="radio" name="clue" value="Very Satisfied"> </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Company Overrall</th>
+                        <td> <input type="radio" name="option1" value="very Unsatisfied"> </td>
+                        <td> <input type="radio" name="option1" value="Unsatisfied"> </td>
+                        <td> <input type="radio" name="option1" value="Netural"> </td>
+                        <td> <input type="radio" name="option1" value="Satisfied"> </td>
+                        <td> <input type="radio" name="option1" value="Very Satisfied"> </td>
+                    </tr>
+                </tbody>
+            </table>
+            <label for="Liking us">
+                <b>How likely are u to </b>
+            </label>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">very Unlikely</th>
+                        <th scope="col">Unlikely</th>
+                        <th scope="col">Netural</th>
+                        <th scope="col">likely</th>
+                        <th scope="col">very likely</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">Buy from us again</th>
+                        <td> <input type="radio" name="option3" value="very Unlikely"> </td>
+                        <td> <input type="radio" name="option3" value="Unlikely"> </td>
+                        <td> <input type="radio" name="option3" value="Netural"> </td>
+                        <td> <input type="radio" name="option3" value="likely"> </td>
+                        <td> <input type="radio" name="option3" value="Very likely"> </td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">Recommend our product to others</th>
+                        <td> <input type="radio" name="option2" value="very Unlikely"> </td>
+                        <td> <input type="radio" name="option2" value="Unlikely"> </td>
+                        <td> <input type="radio" name="option2" value="Netural"> </td>
+                        <td> <input type="radio" name="option2" value="likely"> </td>
+                        <td> <input type="radio" name="option2" value="Very likely"> </td>
+
+                    </tr>
+                    <tr>
+                        <th scope="row">Recoomend our company to others</th>
+                        <td> <input type="radio" name="option4" value="very Unlikely"> </td>
+                        <td> <input type="radio" name="option4" value="Unlikely"> </td>
+                        <td> <input type="radio" name="option4" value="Netural"> </td>
+                        <td> <input type="radio" name="option4" value="likely"> </td>
+                        <td> <input type="radio" name="option4" value="Very likely"> </td>
+
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+                <label for="comments">
+                    <b>Additional comments or suggestions</b>
+                </label>
+                <br>
+                <textarea class="textarea"></textarea>
+                <br><br>
+            </div>
+            <input type="submit" value="submit">
+        </div>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+    </form>
+</body>
+
+</html>
